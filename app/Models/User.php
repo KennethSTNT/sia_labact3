@@ -3,9 +3,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 class User extends Model{
     public $timestamps=false;
-protected $table = 'student';
+protected $table = 'instructor';
 // column sa table
 protected $fillable = [
-'id', 'Name'
+'instructor_firstname','instrcutor_lastname','id'
 ];
 }
